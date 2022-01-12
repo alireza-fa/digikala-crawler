@@ -108,8 +108,4 @@ class DataCrawler(CrawlerBase):
                 product=product, title=key, value=value
             )
         print('crawling is successfully')
-
-
-if __name__ == "__main__":
-    crawler = LinkCrawler()
-    crawler.start()
+        
